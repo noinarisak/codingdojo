@@ -1,0 +1,11 @@
+Ideas for folder structure
+
+Options:
+- By language then by Kata Catalogue
+java
+csharp
+ruby
+python
+groovy
+scala
+fsharp
