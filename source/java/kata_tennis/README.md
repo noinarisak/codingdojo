@@ -1,4 +1,4 @@
-*Notes from http://codingdojo.org/cgi-bin/wiki.pl?KataTennis
+#Notes from http://codingdojo.org/cgi-bin/wiki.pl?KataTennis
 About this Kata
 This Kata is about implementing a simple tennis game. I came up with it while thinking about Wii tennis, where they have simplified tennis, so each set is one game.
 
@@ -19,4 +19,7 @@ The scoring system is rather simple:
 3. If at least three points have been scored by each player, and the scores are equal, the score is "deuce".
 
 4. If at least three points have been scored by each side and a player has one more point than his opponent, the score of the game is "advantage" for the player in the lead.
+--------
+Notes: Use the following mvn to generate the project structure
+mvn archetype:generate -DgroupId=com.narisak.kata -DartifactId=kata-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
