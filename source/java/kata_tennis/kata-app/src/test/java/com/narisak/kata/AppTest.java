@@ -35,4 +35,23 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testPlayers_Start_LoveLove() {
+
+    } 
+
+    public void testAllPlayers_40_40_are_deuce() {
+
+    }
+
+    public void testPlayerOne_Has_40_And_Scores() {
+
+    }
+    public void testPlayerA_Has_40_and_WinningShot_PlayerA_Wins_Game() {
+
+    }
+
+    public void testPlayerA_and_PlayerB_are_Deuce_and_PlayerA_HasWinningShot_PlayerA_Wins_Game() {
+
+    }
 }
