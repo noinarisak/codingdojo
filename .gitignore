@@ -1,21 +1,38 @@
-# Created by http://gitignore.io
+# Created by http://www.gitignore.io
 
 ### vim ###
-.*.s[a-w][a-z]
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
 *.un~
 Session.vim
 .netrwhist
 *~
 
+
+### SublimeText ###
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+
 ### Maven ###
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon
 
+# Icon must ends with two \r.
+Icon
 
 # Thumbnails
 ._*
@@ -24,10 +41,50 @@ Icon
 .Spotlight-V100
 .Trashes
 
+
 ### Java ###
 *.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+
+### Eclipse ###
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.classpath
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin 
+.target
+
+# TeXlipse plugin
+.texlipse
+
